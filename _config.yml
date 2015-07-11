@@ -1,0 +1,53 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Bhavdip
+description:      'I work as Senior Android Developer. This is my personal blog and any views expressed here are mine, and not my employers.'
+url:              http://bpathar.com
+baseurl:          /
+logo:             /content/images/me.jpg
+
+author:
+  name:           'Bhavdip Pathar'
+  url:            'https://plus.google.com/+bhavdippathar003'
+
+paginate:         3
+
+#disqus short name at end of page comments feature in to the sites
+disqus_shortname: bhavdippathar
+
+# social sites
+github:
+  repo:			https://github.com/bhavdip/bhavdip.github.io
+  name:			'bhavdip'
+  title:		'@bhavdip on GitHub'
+
+twitter: 		'@bhavdip_pathar'
+
+gplus:		
+  name:			'+bhavdippathar003'
+  title: 		'+bhavdippathar'
+
+stackoverflow: 
+  name:			'593248/bhavdip-pathar'
+  title: 		'Bhavdip Pathar on StackOverflow'
+
+linkedin: 		'bhavdippathar'
+linkedintitle: 	'Bhavdip Pathar on LinkedIn'
+
+foursquare:
+
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  # Enable GitHub Flavored Markdown (fenced code blocks)
+  input: GFM	
+
+uuid: 'UA-65030645-1'
