@@ -1,10 +1,5 @@
-   {% if site.uuid != null %}
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', '{{ site.uuid }}', 'auto');
-    ga('send', 'pageview');
-  </script>
-   {% endif %}
+{% if site.data.theme.show_disclaimer %}
+  <p>
+    © {{ site.title }}, {{ site.data.theme.current_year }} &mdash; built with <a href="http://jekyllrb.com/">Jekyll</a> and hosted with ♥ on GitHub pages
+  </p>
+{% endif %}

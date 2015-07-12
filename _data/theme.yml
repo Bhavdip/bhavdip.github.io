@@ -1,0 +1,8 @@
+
+uuid: 'UA-65030645-1'
+
+# Toggle "Postings are my own" disclaimer in footer
+show_disclaimer: true
+
+# Current Year 
+current_year: 2015

@@ -47,7 +47,8 @@ gems:
   - jekyll-sitemap
 
 kramdown:
-  # Enable GitHub Flavored Markdown (fenced code blocks)
-  input: GFM	
+  #KramdownPermalink
+  #In addition to the defaults mentioned above, you can also turn on recognition of Github Flavored Markdown 
+  #by passing an input option with a value of “GFM”.
+  input: GFM
 
-uuid: 'UA-65030645-1'
