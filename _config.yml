@@ -1,54 +1,19 @@
-# Dependencies
-markdown:         kramdown
-highlighter:      pygments
+name:   'PixelCog Blog'
+url:    'http://pixelcog.com'
+author: 'Mike Greiling'
 
-# Permalinks
-permalink:        pretty
-relative_permalinks: true
+include:  ['_pages']
 
-# Setup
-title:            Bhavdip
-description:      'I work as Senior Android Developer. This is my personal blog and any views expressed here are mine, and not my employers.'
-url:              http://bpathar.com
-baseurl:          /
-logo:             /content/images/avatar.jpg
+paginate:      10
+paginate_path: '/blog/page:num/'
+permalink:     '/blog/:year/:title/'
+relative_permalinks: false
 
-author:
-  name:           'Bhavdip Pathar'
-  url:            'https://plus.google.com/+bhavdippathar003'
+excerpt_separator: "{{ more }}"
 
-paginate:         3
+safe:     true
+markdown: 'kramdown'
+timezone: 'America/Chicago'
+highlighter: 'pygments'
 
-#disqus short name at end of page comments feature in to the sites
-disqus_shortname: bhavdippathar
-
-# social sites
-github:
-  repo:			https://github.com/bhavdip/bhavdip.github.io
-  name:			'bhavdip'
-  title:		'@bhavdip on GitHub'
-
-twitter: 		'@bhavdip_pathar'
-
-gplus:		
-  name:			'+bhavdippathar003'
-  title: 		'+bhavdippathar'
-
-stackoverflow: 
-  name:			'593248/bhavdip-pathar'
-  title: 		'Bhavdip Pathar on StackOverflow'
-
-linkedin: 		'bhavdippathar'
-linkedintitle: 	'Bhavdip Pathar on LinkedIn'
-
-foursquare:
-
-gems:
-  - jekyll-sitemap
-
-kramdown:
-  #KramdownPermalink
-  #In addition to the defaults mentioned above, you can also turn on recognition of Github Flavored Markdown 
-  #by passing an input option with a value of “GFM”.
-  input: GFM
-
+disqus_shortname: pixelcog
