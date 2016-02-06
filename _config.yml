@@ -1,6 +1,7 @@
-name:   'PixelCog Blog'
+name:   'StayTune Blog'
 url:    'http://pixelcog.com'
-author: 'Mike Greiling'
+author: 'Bhavdip Pathar'
+
 
 include:  ['_pages']
 
@@ -16,4 +17,4 @@ markdown: 'kramdown'
 timezone: 'America/Chicago'
 highlighter: 'pygments'
 
-disqus_shortname: pixelcog
+disqus_shortname: StayTune
