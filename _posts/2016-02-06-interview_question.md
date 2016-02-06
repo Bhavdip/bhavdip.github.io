@@ -26,5 +26,11 @@ image:  hello-world.gif
 
 # Java Basic Question
 1. What is different between array and array-list?
-2. What string is immutable in java?
+2. why string is immutable in java?
 3. Can abstract class have constructor in Java?
+4. How to get the first and last chart into the string in java?
+
+	*You can get the first and last character using charAt() method of one of the interface java.lang.CharSequence. The backed of the string is array, that means the index start from zero and end at length-1. Where the length is number of character into the string. You can get the length of the string using length() method. Using index you can get the particular character into the string*
+
+5. What is immutable object in java? Can we write the immutable object?
+6. What is different between StringBuffer and StringBuilder?

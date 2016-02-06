@@ -6,9 +6,9 @@
 body {
 	margin: 0;
 	padding:50px;
-	font:16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color:#333;
-	font-weight:300;
+	font:16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#000000;
+	font-weight:500;
 }
 
 .wrapper {
@@ -105,7 +105,7 @@ section {
 }
 
 small {
-	font-size:11px;
+	font-size:12px;
 }
 
 hr {
@@ -220,7 +220,7 @@ nav li:last-child {
 }
 
 nav li a {
-	font-size:11px;
+	font-size:12px;
 	color:#999;
 	display:block;
 	text-align:center;
@@ -286,7 +286,7 @@ nav li a.active:hover {
 }
 
 .pagination li a {
-	font-size:11px;
+	font-size:12px;
 	color:#999;
 	display:block;
 	text-align:center;
