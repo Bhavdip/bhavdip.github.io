@@ -1,20 +1,20 @@
 name:   'StayTune Blog'
-url:    'http://pixelcog.com'
 author: 'Bhavdip Pathar'
 
 
 include:  ['_pages']
 
+# Gems
+gems: [jekyll-paginate]
+
 paginate:      10
 paginate_path: '/blog/page:num/'
 permalink:     '/blog/:year/:title/'
-relative_permalinks: false
 
 excerpt_separator: "{{ more }}"
 
-safe:     true
+safe:     false
 markdown: 'kramdown'
 timezone: 'America/Chicago'
 highlighter: 'pygments'
-
 disqus_shortname: StayTune
