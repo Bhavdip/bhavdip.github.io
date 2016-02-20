@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="chrome=1" />
-		<title>{% if page.title %}{{ page.title }}{% else %}PixelCog{% endif %}</title>
+		<title>{% if page.title %}{{ page.title}}{% else %}{{ site.name }}{% endif %}</title>
 
 		<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 {% if page.blogfeed %}
@@ -11,51 +11,25 @@
 {% endif %}
 		<link rel="stylesheet" href="/css/main.css" />
 		<link rel="stylesheet" href="/css/syntax.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
 		<!--[if lt IE 9]>
 		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 	</head>
+
 	<body>
-		<div class="wrapper{% if location == '' %} home{% endif %}">
-			<header>
-				<h1><a href="/"><img src="/img/pixelcog-logo.png" alt="{{ site.name }}" width="300" /></a></h1>
-				<nav><ul>
-					<li><a {% if location == 'about' %}class="active" {% endif %}href="/about/">About</a></li>
-					<li><a {% if location == 'projects' %}class="active" {% endif %}href="/projects/">Projects</a></li>
-					<li><a {% if location == 'blog' %}class="active" {% endif %}href="/blog/">Blog</a></li>
-					<li><a {% if location == 'contact' %}class="active" {% endif %}href="/contact/">Contact</a></li>
-				</ul></nav>
-			</header>
+		<div class="wrapper{% if location == '' %}home{% endif %}">
+			{% include header.html %}
 			<section>
 				{{ content }}
 			</section>
-			<footer>
-{% if page.nobio != true %}{% if location != '' %}
-				<img class="avatar" src="http://www.gravatar.com/avatar/33f90637d77f8d4da67faafd3af6597e?s=144" alt="Me" />
-{% endif %}
-				<p>PixelCog is the home of <a href="/about/">Mike Greiling</a>, freelance programmer, consultant, and entrepreneur.</p>
-				<p><a href="http://github.com/mikegreiling">github</a> | <a href="http://twitter.com/mikegreiling">twitter</a> | <a href="http://facebook.com/mike.greiling">facebook</a></p>
-{% endif %}
-				<p>
-					<small>© {{ site.time | date: '%Y' }} PixelCog Inc.</small><br />
-					<small>Made with <a href="http://jekyllrb.com/">Jekyll</a> &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small>
-				</p>
-			</footer>
+			  {% include footer.html %}
 		</div>
 		<script src="/js/scale.fix.js"></script>
-{% comment %}
-
-============
- ATTENTION!
-============
-
-If you are forking this repository, please remove or update the following
-Google Analytics tracking code and disqus shortname before enabling the
-javascript segment below.
-
-{% endcomment %}
 {% if site.disqus_shortname !=''%}
+
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
 			_gaq.push(['_setAccount', 'UA-20587204-1']);
@@ -77,6 +51,7 @@ javascript segment below.
 				}
 			})();
 		</script>
+
 {% endif %}
 	</body>
 </html>

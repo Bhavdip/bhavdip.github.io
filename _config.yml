@@ -1,16 +1,11 @@
-name:   'StayTune Blog'
+name:   'StayTune'
 author: 'Bhavdip Pathar'
-
-
 include:  ['_pages']
-
 # Gems
 gems: [jekyll-paginate]
-
 paginate:      10
 paginate_path: '/blog/page:num/'
 permalink:     '/blog/:year/:title/'
-
 excerpt_separator: "{{ more }}"
 
 safe:     false

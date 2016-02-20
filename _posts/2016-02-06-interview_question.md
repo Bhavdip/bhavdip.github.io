@@ -1,6 +1,5 @@
 ---
 layout: post
-title:  Interview question for android developer
 tags:   interviewquestion
 image:  hello-world.gif
 ---
