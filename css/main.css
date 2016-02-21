@@ -1,6 +1,25 @@
 @import url(https://fonts.googleapis.com/css?family=Arvo:400,700);
 
-/* Scaffolding */
+/* bottom of the about me */
+div.aboutme {
+    width: inherit;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Span */
+span.spanlarger{
+	font-size:large;
+}
+
+span.spanSmaller{
+	font-size:smaller;	
+}
+/**
+  Footer Social Item
+**/
+
 a.social-item {
    display: inline-block;
    margin: 1px;
@@ -9,9 +28,9 @@ a.social-item {
 a.social-item i{
     display:block;
     position: relative;
-    border: 1px solid #000;
+    border: 1px solid #333;
     border-radius: 50%;
-    color: #DA5417;
+    color: #333;
     float:left;
     line-height:1.5em;
     width:1.5em;
@@ -20,11 +39,14 @@ a.social-item i{
    -webkit-font-smoothing: antialiased;
 }
 
+/**
+ Style of the page body
+**/
 body {
 	margin: 0;
 	padding:50px;
 	font:16px 'Arvo', serif;
-	color:#000000;
+	color:#000;
 	font-weight:400;
 }
 
@@ -42,6 +64,9 @@ body {
 	clear: both;
 }
 
+/*
+  Image max width 100
+*/
 img {
 	max-width:100%;
 }
@@ -62,38 +87,45 @@ h1, h2, h3 {
 
 h1 {
 	font-size:x-large;
-  font-weight:400;
+  	font-weight:400;
 }
 
 h2, h2 a {
-  font-size: x-large;
+  	font-size: larger;
 	color:#333;
+  	font-weight: 400;
 }
+
 h2 a:hover {
 	color:#333;
+  	font-weight: 400;
 	text-decoration: underline;
 }
 
 h3, h4, h5, h6, h3 a, h4 a, h5 a, h6 a {
-  font-size:16px;
 	color:#333;
+  	font-size:smaller;
 }
+
 h3 a:hover,
 h4 a:hover,
 h5 a:hover,
 h6 a:hover {
-	color:#444 !important;
+	color:#444
 	text-decoration: underline;
 }
 
+/*
+  Href colour
+*/
 a {
-	color:#6491b2;
+	color:#DB5518;
 	text-decoration:none;
 }
 
 a:hover,
 a:active {
-	color:#4f738d;
+	color:#DB5518;
 	text-decoration: underline;
 }
 
@@ -143,6 +175,7 @@ blockquote {
 #table-of-contents {
 	margin-bottom: 0.5em;
 }
+
 #markdown-toc {
 	font-size: 0.9em;
 	display: inline-block;
@@ -154,7 +187,6 @@ blockquote {
 #markdown-toc li > ul {
 	margin-bottom: 0;
 }
-
 
 code, pre {
 	font-family: 'Arvo', serif;
@@ -254,13 +286,16 @@ nav li:last-child a {
 	border-radius:0 5px 5px 0;
 }
 
+/* Top Navigation activation style  */
 nav li a:hover,
 nav li a:active {
 	color:#444;
 	font-weight: bold;
 	text-decoration: none;
 }
-
+/* Top Navigation bar cursor
+hover color
+*/
 nav li a:active,
 nav li a.active,
 nav li a.active:hover {
@@ -391,10 +426,11 @@ a.post-banner:hover { background-size: auto 104%; }
 	margin-bottom: 2em;
 }
 
-/* Footer / Sidebar */
-
+/*
+  Footer
+ */
 footer {
-	font-size: 16px;
+	font-size: 15px;
 	text-align: center;
 	width:275px;
 	float:left;
@@ -444,7 +480,6 @@ img.pull-left-responsive {
 }
 
 /* Responsive Adjustments */
-
 @media print, screen and (max-width: 1050px) {
 
 	div.wrapper {
@@ -582,7 +617,9 @@ div.home footer {
 	max-width: 300px;
 }
 
-/* jotForm Styling */
+/*
+  jotForm Styling
+*/
 
 form {
 	margin: 0;

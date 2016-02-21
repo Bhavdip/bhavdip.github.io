@@ -1,41 +1,75 @@
 ---
 permalink: /about/
 layout:    default
-title:     About PixelCog
+title:     About StayTurn
+updated: 2016-02-21 @ 10:58 am
 nobio:     true
 ---
 
-# About PixelCog
+#About Me
 ----------------
 
-![Me](http://www.gravatar.com/avatar/33f90637d77f8d4da67faafd3af6597e?s=200){: .profile .pull-right }
+![Me](https://i.stack.imgur.com/xF6F1.jpg?s=328&g=1){: .profile .pull-right }
 
-PixelCog is multi-talented web programming shop operated by **Mike Greiling** in Minneapolis, MN.
 
-We specialize in both client and server-side coding and partner with [talented design teams](http://www.superlabdesign.com/) on most of our projects.  You can take a look at our recent work in the **[Projects](/projects/)** section of this website.
+Hello I am Bhavdip Pathar. Geek software engineer, programmer. Passionate about to maintain the quality, repaid deliver of the product. Strongly believe in agile methodology. Since last four years working in mobile industry. It was quite amazing experience & evolved lots skill sets. Proficents in Java & Advance Android Software development.
 
-### Hire Us!
+StayTune is my personal blog for sharing my ideas and skills that i could learn from my experiences. I am not good blog writer but want to capture all those stuff that help my and other peoples similar like me in the world.
 
-Got an interesting web app that you want built? Need some technical consulting on your next tech project?  [Contact us](/contact/) for a quote!
+***
 
-### Work With Us!
+##WORK-EXPERIENCES
 
-We're always looking for talented software engineers with experience in one or more of the following tools:
+<span class="spanlarger">2015-2016</span><br/>
+<a href="http://creolestudios.com/">Creostudios</a><br/>
+<span class="spanSmaller" style="color: #b3b3b3">Sr. Android Developer</span>
 
-* _Ruby_
-* _PHP 5.3+_ (Experience with the _[Lithium](http://lithify.me/)_ framework is a plus)
-* _MySQL_
-* _[MongoDB](http://www.mongodb.org/)_
-* _JavaScript_
-* _[React](http://facebook.github.io/react/)_ and _[Flux](http://facebook.github.io/flux/)_
-* Responsive _HTML5_ and _CSS_ design
+<span class="spanlarger">APR 2014-AUG 2014</span><br/>
+<a href="http://urvatechlabs.com/">UrvTechLans</a><br/>
+<span class="spanSmaller" style="color: #b3b3b3">Sr. Android Developer</span>
 
-If you are available for contracting opportunities or part-time employment, [please contact us](/contact/)!
+<span class="spanlarger">2012-2014</span><br/>
+<a href="http://http://www.plenartech.com/">Plenartech Pvt. Ltd</a><br/>
+<span class="spanSmaller" style="color: #b3b3b3">Android Developer</span>
 
-### Network
 
-Follow Michael:  
-↪ [github](http://github.com/mikegreiling) | [twitter](http://twitter.com/mikegreiling) | [facebook](http://facebook.com/mike.greiling)  
+<span class="spanlarger">2011-2012</span><br/>
+<a href="http://www.esprit.co.in/">Esprit Solutions Pvt. Ltd</a><br/>
+<span class="spanSmaller" style="color: #b3b3b3">Android Developer</span><br/>
 
-Follow PixelCog:  
-↪ [github](http://github.com/pixelcog) | [twitter](http://twitter.com/pixelcog) | [facebook](http://facebook.com/pixelcog)
+***
+
+##TECHNICAL SKILLS
+
+<span class="spanlarger">Language</span><br/><br/>
+<span style="color: #333">`Android` `Java` `C++` `C`</span><br/>
+
+<span class="spanlarger">Framework</span><br/><br/>
+<span style="color: #333">`Android` `J2ME` `J2EE`</span><br/>
+
+<span class="spanlarger">Database</span><br/><br/>
+<span style="color: #333">`MySQL` `AWS Database` `AWS Dynamodb` `Realm` `SQLite`</span><br/>
+
+<span class="spanlarger">Web Technology</span><br/><br/>
+<span style="color: #333">`HTML` `CSS` `Javascript`</span><br/>
+
+***
+
+##NETWORK 
+
+If you are available for contracting opportunities [please contact me](/contact/) !
+
+<div class="aboutme">
+<a  class="social-item" href="http://twitter.com/{{ site.data.members.twitter_name}}" title="{{ site.twitter_name }} on Twitter" target="_blank">
+	<i class="fa fa-twitter fa-lg"></i>
+</a>
+	<a  class="social-item" href="http://github.com/{{site.data.members.github_name}}" title="{{site.data.members.github_name}} on Github" target="_blank">
+	<i class="fa fa-github fa-lg"></i>
+</a>
+<a  class="social-item" href="http://stackoverflow.com/users/{{site.data.members.stack_overflow}}" title="{{ site.twitter_name }} on stack_overflow" target="_blank">
+	<i class="fa fa-stack-overflow fa-lg"></i>
+</a>
+<a  class="social-item" href="https://in.linkedin.com/in/{{site.data.members.linked_in}}" title="{{ site.twitter_name }} on LinkedIn" target="_blank">
+	<i class="fa fa-linkedin fa-lg"></i>
+</a>
+</div>

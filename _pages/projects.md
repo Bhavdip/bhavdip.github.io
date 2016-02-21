@@ -4,36 +4,20 @@ layout:    default
 title:     My Current Projects
 ---
 
-# Current Projects
-------------------
-![Me](http://www.gravatar.com/avatar/33f90637d77f8d4da67faafd3af6597e?s=200){: .profile .pull-right }
+Here's a quick glimpse into the projects we're currently involved with.
 
-PixelCog is multi-talented web programming shop operated by **Mike Greiling** in Minneapolis, MN.
+## ArkOwl Online Fraud Detection
 
-We specialize in both client and server-side coding and partner with [talented design teams](http://www.superlabdesign.com/) on most of our projects.  You can take a look at our recent work in the **[Projects](/projects/)** section of this website.
+[![ArkOwl Logo](/img/projects/arkowl.jpg)](http://www.arkowl.com/){: .post-banner style='background-image: url(/img/projects/arkowl.jpg);'}
 
-### Hire Us!
+ArkOwl is a small startup project founded in 2012 for the purpose of helping large online retailers determine the legitimacy of their online orders. Through clever use of social APIs, data mining, and statistical analysis, we provide valuable information to fraud analysts allowing them to mitigate what would be millions in potential losses.
 
-Got an interesting web app that you want built? Need some technical consulting on your next tech project?  [Contact us](/contact/) for a quote!
+This project makes extensive use of the [Lithium PHP](http://lithify.me/) framework and [MongoDB](http://www.mongodb.org/), and is hosted with the wonderful PaaS guys at [EngineYard](http://engineyard.com/).
 
-### Work With Us!
+## FullMonte IOL
 
-We're always looking for talented software engineers with experience in one or more of the following tools:
+[![FullMonte Logo](/img/projects/fullmonte.png)](http://fullmonteiol.com/){: .post-banner style='background-image: url(/img/projects/fullmonte.png);'}
 
-* _Ruby_
-* _PHP 5.3+_ (Experience with the _[Lithium](http://lithify.me/)_ framework is a plus)
-* _MySQL_
-* _[MongoDB](http://www.mongodb.org/)_
-* _JavaScript_
-* _[React](http://facebook.github.io/react/)_ and _[Flux](http://facebook.github.io/flux/)_
-* Responsive _HTML5_ and _CSS_ design
+FullMonte IOL is a startup project which aims to enhance or replace outdated lens power calculation algorithms commonly used by cataract surgeons. Utilizing powerful statistical formulas and on-demand cloud computing, we are able to perform hundreds of thousands of calculations for opthalmologists each week and greatly improve cataract results.
 
-If you are available for contracting opportunities or part-time employment, [please contact us](/contact/)!
-
-### Network
-
-Follow Michael:  
-↪ [github](http://github.com/mikegreiling) | [twitter](http://twitter.com/mikegreiling) | [facebook](http://facebook.com/mike.greiling)  
-
-Follow PixelCog:  
-↪ [github](http://github.com/pixelcog) | [twitter](http://twitter.com/pixelcog) | [facebook](http://facebook.com/pixelcog)
+FullMonte utilizes the [R statistical computing language](http://www.r-project.org/) and uses [PiCloud](http://www.picloud.com/) for its on-demand cloud computing which we can pay for [by the millisecond](http://www.picloud.com/pricing/) rather than by the hour.

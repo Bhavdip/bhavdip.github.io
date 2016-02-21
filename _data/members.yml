@@ -2,6 +2,7 @@
 #this will be accessible via {{site.data.fileName.variable}}.
 gravatar: 'https://avatars3.githubusercontent.com/u/559262?v=3&s=460'
 #gravatar: 'https://i.stack.imgur.com/xF6F1.jpg?s=328&g=1'
+
 github_name : 'Bhavdip'
 twitter_name : 'bhavdip_pathar'
 stack_overflow : '593248/bhavdip-pathar?tab=profile'

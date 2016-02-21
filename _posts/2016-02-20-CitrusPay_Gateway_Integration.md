@@ -1,15 +1,16 @@
 ---
 layout: post
-title:  Interview question for android developer
-tags:   awscloudsearch
-image:  hello-world.gif
+title : "Getting start with Citrus in Android"
+image: gmail-to-pdf.png
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac rutrum velit, eget rutrum erat. Nam vel dolor nec enim pellentesque dictum eu eu sem. Cras fringilla ultrices purus, ut hendrerit lacus rutrum fermentum. Cras commodo purus sit amet mauris tincidunt 
+Last couples of week working on citrus payment gateway. It's easy to customize
+and integration. We see the all septs for complete the basic trasaction using
+citrsu in android. So Let's get start
 
 {{ more }}
 
-aliquet. Proin eget blandit orci, eget pellentesque nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam ac justo mauris. Praesent hendrerit dolor nec scelerisque sollicitudin. Nullam gravida tempor mi faucibus euismod. Sed pulvinar quam metus, non bibendum metus pellentesque vitae. Suspendisse commodo, magna sed rhoncus sollicitudin, eros nisi eleifend nisi, ac scelerisque leo risus sed nisl. Aenean neque mi, feugiat in eros auctor, placerat consequat massa. Morbi vel libero id purus feugiat tristique sed et libero. Morbi et urna ultrices, gravida tellus facilisis, finibus ipsum.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac rutrum velit, eget rutrum erat. Nam vel dolor nec enim pellentesque dictum eu eu sem. Cras fringilla ultrices purus, ut hendrerit lacus rutrum fermentum. Cras commodo purus sit amet mauris tincidunt aliquet. Proin eget blandit orci, eget pellentesque nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam ac justo mauris. Praesent hendrerit dolor nec scelerisque sollicitudin. Nullam gravida tempor mi faucibus euismod. Sed pulvinar quam metus, non bibendum metus pellentesque vitae. Suspendisse commodo, magna sed rhoncus sollicitudin, eros nisi eleifend nisi, ac scelerisque leo risus sed nisl. Aenean neque mi, feugiat in eros auctor, placerat consequat massa. Morbi vel libero id purus feugiat tristique sed et libero. Morbi et urna ultrices, gravida tellus facilisis, finibus ipsum.
 
 Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus semper ultrices pulvinar. Sed laoreet iaculis pulvinar. Vestibulum pretium, enim in tincidunt volutpat, magna nunc porta lectus, sed tincidunt mauris lacus at ex. Suspendisse potenti. Suspendisse fringilla enim quis tortor faucibus venenatis. Sed ornare eros sem, id feugiat odio varius id. Vivamus accumsan laoreet erat, sollicitudin facilisis augue mollis a. Fusce consequat nisi sit amet suscipit pharetra.
 
