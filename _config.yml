@@ -12,4 +12,3 @@ safe:     false
 markdown: 'kramdown'
 timezone: 'America/Chicago'
 highlighter: 'rouge'
-disqus_shortname: StayTune

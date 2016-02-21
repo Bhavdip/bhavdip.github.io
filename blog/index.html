@@ -3,7 +3,6 @@ layout:    default
 title:     StayTurn
 blogfeed:  true
 ---
-
 <h1>{{site.name}}</h1>
 <hr/>
 <div class="articles">
@@ -13,7 +12,7 @@ blogfeed:  true
 	<p class="post-meta">
 		{{ post.date | date_to_string }} &bull;
 		{% if readtime == '0' %} &lt; 1{% else %}{{ readtime }}{% endif %} min. read &bull;
-		<a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.path | split:'/' | last | cgi_escape }}">Comments</a>
+		<a href="{{post.url}}#disqus_thread">Comments</a>
 	</p>
 
 	{% if post.image %}

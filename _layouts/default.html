@@ -1,4 +1,5 @@
-{% capture location %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}<!doctype html>
+{% capture location %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}
+<!doctype html>
 <html>
 	<head>
 		<meta charset="utf-8" />
@@ -28,31 +29,23 @@
 			</section>
 			  {% include footer.html %}
 		</div>
+
 		<script src="/js/scale.fix.js"></script>
-{% if site.disqus_shortname !=''%}
 
+		{% if site.data.members.disqus_shortname !=''%}
 		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-20587204-1']);
-			_gaq.push(['_trackPageview']);
-
-			var disqus_shortname  = 'pixelcog',
-			    disqus_identifier = '{{ page.path | split:'/' | last | cgi_escape }}',
-			    disqus_url        = '{{ site.url }}{{ page.url | uri_escape }}'
-			;
-			(function() {
-				var load = function(src){
-					var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = src;
-					var e = document.getElementsByTagName('script')[0]; e.parentNode.insertBefore(s, e);
-				};
-				load(('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js');
-				load('//' + disqus_shortname + '.disqus.com/count.js');
-				if (document.getElementById('disqus_thread')) {
-					load('//' + disqus_shortname + '.disqus.com/embed.js');
-				}
-			})();
+    		var disqus_shortname = '{{site.data.members.disqus_shortname}}';
+    		(function() {
+        		var dsq = document.createElement('script');
+        		dsq.type = 'text/javascript';
+        		dsq.async = true;
+        		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    			})();
 		</script>
-
-{% endif %}
+		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+		{% endif %}
 	</body>
+	<!--Place the following code before your site's closing </body> tag:  -->
+	<script id="dsq-count-scr" src="//staytune.disqus.com/count.js" async></script>
 </html>
