@@ -7,8 +7,10 @@ blogfeed: true
 <h1 class="post-title">{{ page.title }}</h1>
 <p class="post-meta">
 	{{ page.date | date_to_string }} &bull;
-	{% if readtime == '0' %} &lt; 1{% else %}{{ readtime }}{% endif %} min. read &bull;
-	<a href="#disqus_thread">Comments</a>
+	{% if readtime == '0' %} &lt; 1{% else %}{{ readtime }}{% endif %} min. read
+	{% if site.github %}
+	 &bull;<a href="#disqus_thread">Comments</a>
+	{% endif %}
 </p>
 
 {% if page.image %}
@@ -25,6 +27,8 @@ blogfeed: true
 
 <hr />
 
-{% if post.comments != false %}
-<div id="disqus_thread"></div>
+{% if site.github %}
+	{% if post.comments != false %}
+	<div id="disqus_thread"></div>
+	{% endif %}
 {% endif %}

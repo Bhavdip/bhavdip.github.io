@@ -1,25 +1,7 @@
 {% capture location %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8" />
-		<meta http-equiv="X-UA-Compatible" content="chrome=1" />
-		<title>{% if page.title %}{{ page.title}}{% else %}{{ site.name }}{% endif %}</title>
-
-		<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
-{% if page.blogfeed %}
-		<link rel="alternate" type="application/atom+xml" title="{{ site.name }} — Feed" href="{{ site.url }}/blog/feed.atom" />
-{% endif %}
-		<link rel="stylesheet" href="/css/main.css" />
-		<link rel="stylesheet" href="/css/syntax.css" />
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-
-		<!--[if lt IE 9]>
-		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-	</head>
-
+	{% include head.html %}
 	<body>
 		<div class="wrapper{% if location == '' %}home{% endif %}">
 			{% include header.html %}
@@ -31,21 +13,6 @@
 		</div>
 
 		<script src="/js/scale.fix.js"></script>
-
-		{% if site.data.members.disqus_shortname !=''%}
-		<script type="text/javascript">
-    		var disqus_shortname = '{{site.data.members.disqus_shortname}}';
-    		(function() {
-        		var dsq = document.createElement('script');
-        		dsq.type = 'text/javascript';
-        		dsq.async = true;
-        		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    			})();
-		</script>
-		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-		{% endif %}
+		{% include disqus.html %}
 	</body>
-	<!--Place the following code before your site's closing </body> tag:  -->
-	<script id="dsq-count-scr" src="//staytune.disqus.com/count.js" async></script>
 </html>
