@@ -6,8 +6,8 @@ updated: 2016-02-21 @ 10:58 am
 nobio:     true
 ---
 
-#About Me
-----------------
+# About Me
+------------
 
 ![Me](https://i.stack.imgur.com/xF6F1.jpg?s=328&g=1){: .profile .pull-right }
 
@@ -18,7 +18,7 @@ StayTune is my personal blog for sharing my ideas and skills that i could learn 
 
 ***
 
-##WORK-EXPERIENCES
+## WORK-EXPERIENCES
 
 <span class="spanlarger">2015-2016</span><br/>
 <a href="http://creolestudios.com/">Creostudios</a><br/>
@@ -39,7 +39,7 @@ StayTune is my personal blog for sharing my ideas and skills that i could learn 
 
 ***
 
-##TECHNICAL SKILLS
+## TECHNICAL SKILLS
 
 <span class="spanlarger">Language</span><br/><br/>
 <span style="color: #333">`Android` `Java` `C++` `C`</span><br/>
@@ -55,7 +55,7 @@ StayTune is my personal blog for sharing my ideas and skills that i could learn 
 
 ***
 
-##NETWORK 
+## NETWORK 
 
 If you are available for contracting opportunities [please contact me](/contact/) !
 
