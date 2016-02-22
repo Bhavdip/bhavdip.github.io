@@ -1,8 +1,8 @@
 ---
 permalink: /about/
 layout:    default
-title:     About StayTurn
-updated: 2016-02-21 @ 10:58 am
+title:     About Stay Tune
+updated: 2016-02-22 @ 10:01 am
 nobio:     true
 ---
 
