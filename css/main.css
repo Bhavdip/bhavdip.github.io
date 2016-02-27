@@ -192,14 +192,14 @@ code, pre {
 	font-family: 'Arvo', serif;
 	color: #333;
 	font-size: 14px;
-	background: #f8f8f8;
+	background: #E5E5E4;
 	border-radius: 5px;
 	border: 1px solid #e5e5e5;
 	padding: 2px 4px;
 }
 
 pre {
-	padding: 8px 15px;
+	padding: 0px 15px;
 	overflow-x: auto;
 }
 pre > code {
