@@ -188,24 +188,50 @@ blockquote {
 	margin-bottom: 0;
 }
 
-code, pre {
-	font-family: 'Arvo', serif;
-	color: #333;
-	font-size: 14px;
-	background: #E5E5E4;
-	border-radius: 5px;
-	border: 1px solid #e5e5e5;
-	padding: 2px 4px;
+/* Code */
+pre {
+  font-family: "Roboto Mono", Menlo, Monaco, "Courier New", monospace;
+  overflow: auto;
+  padding: 1em 2.5%;
+}
+
+code {
+  font-family: "Roboto Mono", Menlo, Monaco, "Courier New", monospace;
+  padding: .25em .5em;
+  font-size: 90%;
+  color: #DB5518;
+  background-color: #f3f3f3;
+  border-radius: 3px;
 }
 
 pre {
-	padding: 0px 15px;
-	overflow-x: auto;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-size: .8rem;
+  line-height: 1.4;
+  white-space: pre;
+  overflow: auto;
+  background-color: #EEE;
+  border: 1px solid #CCC;
+  border-radius: .4em;
 }
-pre > code {
-	background: transparent;
-	border: none;
-	padding: 0;
+pre code {
+  padding: 0;
+  font-size: 100%;
+  color: inherit;
+  background-color: transparent;
+}
+/* end code */
+
+/* Pygments via Jekyll */
+.highlight {
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+.highlight pre {
+  margin-bottom: 0;
 }
 
 table {

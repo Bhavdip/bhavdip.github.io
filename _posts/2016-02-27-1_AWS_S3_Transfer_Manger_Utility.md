@@ -1,14 +1,16 @@
 ---
 layout: post
-title:	1.Introducing the Transfer Utility for the AWS SDK for Android
+title:	Introducing the Transfer Utility for the AWS SDK for Android Part1
 image:	byword-icon.png
 ---
-## AWS S3 TransferManager 
+
+##<span style="color:#c60"> AWS S3 TransferManager</span>
+
 
 Easiest way to transfer the data/object/file between mobile application and Amazon S3, S3 Transfer Utility for AWS SDK for Android.
 {{ more }}
 
-**What is difference between the Transfer Utility and the Transfer Manager?**
+**<span style="color:#007697">What is difference between the Transfer Utility and the Transfer Manager?</span>**
 
 Probably when we try to transfer file or object, need to manage all the complicate steps such like starting from managing multiple files, resume, pause and cancel and many more. The Transfer Utility is designed to manage all the mentioned steps and provide the simple and effective way to use.
 
@@ -21,17 +23,15 @@ The Transfer Utility is new client, with many of the same features as Transfer M
 5.	It has general configuration improvements for performance with S3 on mobile.
 
 
-**Uploading and downloading**
+**<span style="color:#007697">Uploading and downloading</span>**
 
 The Transfer Manager has APIs that support the use of I/O streams, with these APIs, pausing, Resuming was not possible. With using Transfer Utility Manager there is one file based API that support the resume and pause on top of automatic pause or resume mentioned above. The Transfer Utility majorly provided two operations download & upload.
-	
 	
 	TransferObserver observer = transferUtility.upload(
 	MY_BUCKET,           // The S3 bucket to upload to (String bucket Name)
 	OBJECT_KEY,          // The key for the uploaded object  (String)
 	FILE_TO_UPLOAD       // The location of the file to be uploaded (File)
 	);
-	
 
 `For example:`
 
@@ -39,8 +39,7 @@ The Transfer Manager has APIs that support the use of I/O streams, with these AP
 	TransferObserver observer = transferUtility.upload(Constants.BUCKET_NAME, file.getName(),file);
 
 
-**Downloading is equally simple:**
-
+**<span style="color:#007697">Downloading is equally simple:</span>**
 	
 	TransferObserver observer = transferUtility.download(
 	MY_BUCKET,           // The S3 bucket to upload to (String bucket Name)
@@ -49,7 +48,7 @@ The Transfer Manager has APIs that support the use of I/O streams, with these AP
 	); 
 	
 
-**Tracking Transfer Progress:**
+**<span style="color:#007697">Tracking Transfer Progress:</span>**
 
 The Transfer Utility makes tracking the transfer make mobile friendly. The basic way to track the transfers is thorough instances of the `TransferObserver` class. `TransferObserver` instance are returned from `download()` and `upload()` methods. They automatically persist into local database. We can queried for base on `id`,`type (upload, download, or any)` or `state (Such as paused)`from anywhere within the app see blow.
 
@@ -83,14 +82,14 @@ The TransferObserver gives access to the state, total bytes transferred thus far
 	});
 
 
-**Pausing Transfers:**
+**<span style="color:#007697">Pausing Transfers:</span>**
 
 With Transfer Manager, there is no guarantee a transfer can paused and there are multiple way to paused. Also paused require developer to serialize the metadata of the transfer to persist to storage. 
 
 The Transfer Utility handlers persists all the metadata of the transfer for you. Even if you application killed, crashed or loss connectivity transfers automatically paused. Even you can manually paused the transfer by id with `pause(transferd id)`paused all downloads
 `pauseAllWithType(TransferType.Download)` and pause all transferred by `pauseAllWithType(TransferType.ANY)`.
 
-**Resuming Transfers:**
+**<span style="color:#007697">Resuming Transfers:</span>**
 
 The Transfer Utility can paused the transfer in many scenarios. In the case of transfer was paused due to of the loss connectivity, the Transfer will automatically Resume when the network connection available again. In case of manually paused the transfer, application killed, crashed, it can be resumed with `resume(TransferId)` method.
 
