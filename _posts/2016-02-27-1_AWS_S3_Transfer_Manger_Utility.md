@@ -42,9 +42,9 @@ The Transfer Manager has APIs that support the use of I/O streams, with these AP
 **<span style="color:#007697">Downloading is equally simple:</span>**
 	
 	TransferObserver observer = transferUtility.download(
-	MY_BUCKET,           // The S3 bucket to upload to (String bucket Name)
-	OBJECT_KEY,          // The key for the uploaded object  (String)
-	FILE_TO_UPLOAD       // The location of the file to be uploaded (File)
+	MY_BUCKET,           /* The bucket to download from */
+	OBJECT_KEY,          // The key for the object to download
+	FILE_TO_DOWNLOAD     // The file for download the object
 	); 
 	
 
