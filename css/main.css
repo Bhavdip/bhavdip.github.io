@@ -199,9 +199,10 @@ code {
   font-family: "Roboto Mono", Menlo, Monaco, "Courier New", monospace;
   padding: .25em .5em;
   font-size: 90%;
-  color: #DB5518;
-  background-color: #f3f3f3;
+  color: #eee;
+  background-color: #444;
   border-radius: 3px;
+  line-height: 200%;
 }
 
 pre {
