@@ -48,6 +48,8 @@ StayTune is my personal blog for sharing my ideas and skills that i could learn 
 <span class="spanlarger" style="color:#007697">Framework</span><br/><br/>
 <span style="color: #333">`Cocos2d-x` `Android SDK` `J2ME` `J2EE`</span><br/>
 
+<span class="spanlarger" style="color:#007697">Tools</span><br/><br/>
+<span style="color: #333">`Git` `GitHub` `BitBucket` `Beanstalk` `Eclipse` `Gradle` `Android Studio` `Ant` `Maven` `NDK`</span><br/>
 
 <span class="spanlarger" style="color:#007697">Platform</span><br/><br/>
 <span style="color: #333">`Android` `AWS DynamoDB` `AWS Cloud Search` `AWS Transcoding` `AWS-S3 Storage` `AWS SimpleDataBase`</span><br/>

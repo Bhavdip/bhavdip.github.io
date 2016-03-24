@@ -4,7 +4,7 @@ title:	Introducing the Transfer Utility for the AWS SDK for Android Part1
 image:	byword-icon.png
 ---
 
-**<span style="color:#c60">AWS S3 TransferManager</span>**
+**<span style="color:#c60">AWS S3 TransferManager</span>**	
 
 
 Easiest way to transfer the data/object/file between mobile application and Amazon S3, S3 Transfer Utility for AWS SDK for Android.
