@@ -89,6 +89,6 @@ have your app that ask the permission to perform the operation. Alternative usin
 For example your application needs to use the camera for capture the picture. Your app can have request the camera permission for use the camera inside your application. Your app directly accesses the camera API and captures the picture. This feature gives your application the overall control for handle the user interface.
 Another approach you app have intent that use the another app default camera that can handle the request for camera and perform the operation for you and result back to your application. This way you can minimize the requesting permission.
 
-Your application should request for permission in each activity where your app needs, If the same request your app need in more than one place, you need to perform the requestPermission() and accept the resultPermission. In next post is how to request for the permission using RunTimeUtility class whenever needs from your activity and handle the response in your activity using it's callback methods.
+Your application should request for permission in each activity where your app needs, If the same request your app need in more than one place, you need to perform the requestPermission() and accept the resultPermission. In next post is how to request for the permission using RunTimeUtility class whenever needs from your activity and handle the response in your activity using it's callback methods. 
 
-[Android Marshmallow Permission Utility 2]({% post_url 2016-03-26-Android_Marshmallow_Permission_Utility_2 %})
+[Android Marshmallow Permission Utility 2]({% post_url 2016-03-26-Android_Marshmallow_Permission_Utility_1 %})
