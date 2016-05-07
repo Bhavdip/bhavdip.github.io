@@ -6,18 +6,41 @@ title:     My Current Projects
 
 Here's a quick glimpse into the projects we're currently involved with.
 
-## ArkOwl Online Fraud Detection
+## <span style="color:#039BE5">[shotz7](http://shotz7.com/)</span>
+[https://play.google.com/store/apps/details?id=com.shotz7.production](https://play.google.com/store/apps/details?id=com.shotz7.production)
 
-[![ArkOwl Logo](/img/projects/arkowl.jpg)](http://www.arkowl.com/){: .post-banner style='background-image: url(/img/projects/arkowl.jpg);'}
+Shotz7 is your one stop entertainment destination for short and curate content like short movies, independent cinema, documentaries, travelogues, and humorous videos. With Shotz7, entertainment is in your pocket- watch anything, anytime, anywhere!
 
-ArkOwl is a small startup project founded in 2012 for the purpose of helping large online retailers determine the legitimacy of their online orders. Through clever use of social APIs, data mining, and statistical analysis, we provide valuable information to fraud analysts allowing them to mitigate what would be millions in potential losses.
+------------
 
-This project makes extensive use of the [Lithium PHP](http://lithify.me/) framework and [MongoDB](http://www.mongodb.org/), and is hosted with the wonderful PaaS guys at [EngineYard](http://engineyard.com/).
+## <span style="color:#039BE5">[Creative Cybernetics](http://creativecybernetics.com/)</span>
 
-## FullMonte IOL
+Check My Tension, Am I Balanced and Relaxis three application as part of complete medical kites for measuring the heart rate and different set of result and level of your body.
 
-[![FullMonte Logo](/img/projects/fullmonte.png)](http://fullmonteiol.com/){: .post-banner style='background-image: url(/img/projects/fullmonte.png);'}
+------------
 
-FullMonte IOL is a startup project which aims to enhance or replace outdated lens power calculation algorithms commonly used by cataract surgeons. Utilizing powerful statistical formulas and on-demand cloud computing, we are able to perform hundreds of thousands of calculations for opthalmologists each week and greatly improve cataract results.
+## <span style="color:#039BE5">[Like Note (Development)](http://www.likenote.com/)</span>
 
-FullMonte utilizes the [R statistical computing language](http://www.r-project.org/) and uses [PiCloud](http://www.picloud.com/) for its on-demand cloud computing which we can pay for [by the millisecond](http://www.picloud.com/pricing/) rather than by the hour.
+Blog sharing, browsing and matched the users, follow the users liked blogs, chat with the friends.
+
+------------
+
+## <span style="color:#039BE5">[Vivify Health (IntutiveHealth)](http://www.vivifyhealth.com/)</span>
+
+------------
+
+## <span style="color:#039BE5">[DoctoDoor](http://doctodoor.com/)</span>
+	
+[https://play.google.com/store/apps/details?id=com.d2d.mobile](https://play.google.com/store/apps/details?id=com.d2d.mobile)
+
+------------
+
+[https://play.google.com/store/apps/details?id=com.UTL.ScreenFilter](https://play.google.com/store/apps/details?id=com.UTL.ScreenFilter)
+
+[https://play.google.com/store/apps/details?id=com.UTL.smartExpenseTracker](https://play.google.com/store/apps/details?id=com.UTL.smartExpenseTracker)
+
+[https://www.youtube.com/watch?v=Ahg8xhtIP54&list=UUPmhJWgA75ymhuQ6TaeUWXA&index=10](https://www.youtube.com/watch?v=Ahg8xhtIP54&list=UUPmhJWgA75ymhuQ6TaeUWXA&index=100)
+
+[https://play.google.com/store/apps/details?id=com.UTL.BirdsOfGujarat](https://play.google.com/store/apps/details?id=com.UTL.BirdsOfGujarat)
+
+[https://play.google.com/store/apps/details?id=com.UTL.LinkClipboard](https://play.google.com/store/apps/details?id=com.UTL.LinkClipboard)

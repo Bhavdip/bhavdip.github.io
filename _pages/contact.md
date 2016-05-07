@@ -1,7 +1,7 @@
 ---
 permalink: /contact/
 layout:    contact
-title:     Contact StayTune
+title:     Contact StayTuned
 ---
 
 # Contact Us

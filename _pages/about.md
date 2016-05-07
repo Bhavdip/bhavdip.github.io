@@ -1,7 +1,7 @@
 ---
 permalink: /about/
 layout:    default
-title:     About Stay Tune
+title:     About StayTuned
 updated: 2016-02-22 @ 10:01 am
 nobio:     true
 ---
@@ -14,7 +14,7 @@ nobio:     true
 
 Hello I am Bhavdip. Geek software engineer, programmer. Passionate about to maintain the quality, repaid deliver of the product. Strongly believe in agile methodology. Since last four years working in mobile industry. It was quite amazing experience & evolved lots skill sets. Proficents in Java & Advance Android Software development.
 
-StayTune is my personal blog for sharing my ideas and skills that i could learn from my experiences. I am not good blog writer but want to capture all those stuff that help my and other peoples similar like me in the world.
+StayTuned is my personal blog for sharing my ideas and skills that i could learn from my experiences. I am not good blog writer but want to capture all those stuff that help my and other peoples similar like me in the world.
 
 ***
 
