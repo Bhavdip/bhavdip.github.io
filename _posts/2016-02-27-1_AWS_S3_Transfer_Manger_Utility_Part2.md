@@ -75,7 +75,7 @@ Then, upload the object with its metadata.
 	  OBJECT_KEY,       /* The key for the uploaded object */
 	  MY_FILE,          /* The file where the data to upload exists */
 	  myObjectMetadata  /* The ObjectMetadata associated with the object*/
-	);	
+	);
 
 **<span style="color:#007697">Download an object from S3</span>**
 
