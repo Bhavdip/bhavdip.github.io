@@ -5,6 +5,7 @@ title:	What would be in advance mode of android app development?
 
 I was wondering how can we build the advance version of android project. I have prepare the set of libraries,tools and tips that help to up your existing android skill level.
 I want to keep edit the post as we found any new update resource.
+{{ more }}
 
 This post also contents the researching points that I found during learning the new topic.
 
